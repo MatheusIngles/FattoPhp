@@ -1,0 +1,21 @@
+body {
+      background-size: cover;
+      min-height: 100vh;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 20px;
+      margin-top: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .table .tarefa-cara td {
+    background-color: #f3de9a !important;
+    }
+    .drag-handle {
+      cursor: grab;
+      color: #666;
+    }
+    .drag-handle:active {
+      cursor: grabbing;
+    }
